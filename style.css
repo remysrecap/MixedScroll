@@ -1,8 +1,7 @@
 
 body {
-	margin: 0 0 0 0;
-	-webkit-marquee-speed: slow;
-
+	margin: 0 0 0 0px;
+	padding: 0 96px 0 96px;
 }
 
 h1 {
@@ -10,18 +9,22 @@ font-size: 84px;
 font-family: roc-grotesk,sans-serif;
 font-weight: 800;
 font-style: normal;
+margin: 0 0 0 0;
 }
 
 h2 {
 	font-family: roc-grotesk,sans-serif;
 	font-weight: 800;
 	font-style: normal;
+	margin: 0 0 0 0;
 }
 
 p {
-	font-family: Conv_Apercu-Mono, sans-serif;
+	font-family: calling-code;
 	font-size: 16px;
 	color: #808080;
+	line-height: 25px;
+	margin: 0 0 0 0;
 }
 
 .top {
@@ -33,17 +36,6 @@ p {
 .stacked-text {
   text-transform: uppercase;
   line-height: 425%;
- margin-left:120px;
-}
-
-.intro {
-
-}
-
-.bottom {
-	background-color:#333;
-	-webkit-marquee-speed: slow;
-
 }
 
 
@@ -51,9 +43,6 @@ p {
 	display: flex;
  	align-items: center;
 	height: 100vh;
-	margin-left:120px;
-	background-color:#333;
-	-webkit-marquee-speed: slow;
 
 }
 
@@ -64,6 +53,9 @@ p {
 	background-color: purple;
 	margin-right: 24px;
 }
+
+
+
 
 #a {
 	background-color: green;
